@@ -5,9 +5,8 @@
   --gradient: radial-gradient(circle, #e5e5e5 0%, #fff 100%);
 }
 
-html,
-body {
-  width: 100dvw;
+html, body {
+  width: 100vw;
   overflow-x: hidden;
   background-color: black;
   color: white;
