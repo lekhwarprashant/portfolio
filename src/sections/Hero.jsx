@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Button from '../components/Button';
 import { words } from '../constants';
 
 function Hero(){
@@ -37,6 +37,7 @@ function Hero(){
                         <p className='md:text-xl text-white-50  relative z-10 pointer-events-none'>
                             Hi, I am Lekhwar a software developer from India who converts caffine into code.
                         </p>
+                        <Button text='See My Work' className='md:w-80 md:h-16 w-60 h-12' id='button' />
                     </div>
                 </header>
                 {/* Right hero section for 3D model */}
