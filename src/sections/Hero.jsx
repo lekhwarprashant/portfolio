@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 import { words } from '../constants';
+import HeroExperience from '../components/HeroModals/HeroExperience';
 
 function Hero(){
     return(
@@ -41,6 +42,11 @@ function Hero(){
                     </div>
                 </header>
                 {/* Right hero section for 3D model */}
+                <figure>
+                    <div className='hero-3d-layout'>
+                        <HeroExperience/>
+                    </div>
+                </figure>
             </div>
 
         </section>
