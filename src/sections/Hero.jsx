@@ -35,7 +35,7 @@ function Hero(){
                             <h1>that Delivers Results</h1>
                             
                         </div>
-                        <p className='md:text-xl text-white-50  relative z-10 pointer-events-none'>
+                        <p className='text-white-50 md:text-xl   relative z-10 pointer-events-none'>
                             Hi, I am Lekhwar a software developer from India who converts caffine into code.
                         </p>
                         <Button text='See My Work' className='md:w-80 md:h-16 w-60 h-12' id='button' />
