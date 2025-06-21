@@ -6,7 +6,8 @@ function HeroLights(){
     return(
 
         <>
-            <SpotLight
+            {/* Lamp Light */}
+            <spotLight
                 position={[2,5,6]}
                 angle={0.15}
                 intensity={100}
@@ -14,7 +15,7 @@ function HeroLights(){
                 color= "white"
             />
 
-            <SpotLight
+            <spotLight
                 position={[4,5,4]}
                 angle={0.3}
                 intensity={40}
@@ -22,7 +23,8 @@ function HeroLights(){
                 color= "#4cc950"
             />
 
-            <SpotLight
+            {/* purple side fill */}
+            <spotLight
                 position={[-3,5,5]}
                 angle={0.4}
                 intensity={60}
@@ -30,6 +32,7 @@ function HeroLights(){
                 color= "#9d4edd"
             />
 
+            {/* area light for soft moody fill */}
             <primitive
                 object={new THREE.RectAreaLight('#A259FF', 8, 3, 2)} 
                 position = {[1,3,4]}
@@ -37,6 +40,7 @@ function HeroLights(){
                 rotation= {[-Math.PI/4, Math.PI/4, 0]}
             />
 
+            {/* subtle point light for atmospheric tone */}
             <pointLight 
                 position={[0,1,0]}
                 intensity={10}
