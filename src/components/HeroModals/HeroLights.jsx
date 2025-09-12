@@ -50,7 +50,7 @@ function HeroLights(){
             <pointLight 
                 position={[1,2,-2]}
                 intensity={10}
-                color="#0d00a4 "
+                color="#0d00a4"
             />
             
             {/* HeroLights
